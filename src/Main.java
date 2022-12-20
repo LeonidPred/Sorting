@@ -42,7 +42,7 @@ public class Main {
     // реализована проверка на одинаковые значения
     public static List<Integer> sorting(List<Integer> a, List<Integer> b) {
         List<Integer> c = new ArrayList();
-        Boolean isEnd; // тумблер для выхода из цикла
+        boolean isEnd; // тумблер для выхода из цикла
         Integer min;//минимальное значение для коллекций
         int count;//счетчик элементов с одинаковым значением
         Integer result = Integer.MIN_VALUE;
