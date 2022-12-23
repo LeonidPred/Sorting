@@ -60,6 +60,7 @@ public class Main {
                     }
                 }
             }
+            //дублирую код, т.к. для сортировки у нас статическая функция, а не полноценный класс
             for(Integer i:b){
                 if(i>result&&i<=min){
                     if(i==min) count++;
